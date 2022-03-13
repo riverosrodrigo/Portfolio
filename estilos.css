@@ -38,13 +38,13 @@ p {
   color: white;
 }
 .color-span{
-  color: #EEAD33;
+  color:  #0794A9;
 }
 
 /*Estilos del menu*/
 .icon-menu{
   font-size: 1.5em;
-  color: #EEAD33;
+  color:  #0794A9;
   border: 1px solid white;
   display: block;
   padding: 5px 12px;
@@ -82,8 +82,8 @@ p {
   position: absolute;
   width: 5px;
   height: 5px;
-  border-right: 2px solid #EEAD33;
-  border-top: 2px solid #EEAD33;
+  border-right: 2px solid  #0794A9;
+  border-top: 2px solid  #0794A9;
   top: 0;
   right: 0;
   opacity: 0;
@@ -93,8 +93,8 @@ p {
   position: absolute;
   width: 5px;
   height: 5px;
-  border-left: 2px solid #EEAD33;
-  border-bottom: 2px solid #EEAD33;
+  border-left: 2px solid  #0794A9;
+  border-bottom: 2px solid  #0794A9;
   left: 0;
   bottom: 0;
   opacity: 0;
@@ -104,8 +104,8 @@ p {
   position: absolute;
   width: 5px;
   height: 5px;
-  border-left: 2px solid #EEAD33;
-  border-top: 2px solid #EEAD33;
+  border-left: 2px solid  #0794A9;
+  border-top: 2px solid  #0794A9;
   top: 0;
   left: 0;
   opacity: 0;
@@ -115,8 +115,8 @@ p {
   position: absolute;
   width: 5px;
   height: 5px;
-  border-bottom: 2px solid #EEAD33;
-  border-right: 2px solid #EEAD33;
+  border-bottom: 2px solid  #0794A9;
+  border-right: 2px solid  #0794A9;
   bottom: 0;
   right: 0;
   opacity: 0;
@@ -146,13 +146,13 @@ p {
   margin: 10px;
 }
 .nav-social__item:first-child{
-  background: #3b5998;
+  background: #183153;
 }
 .nav-social__item:nth-child(2){
-  background: #1da1f2;
+  background: #0A66C2;
 }
 .nav-social__item:nth-child(3){
-  background: #ea4c89;
+  background: #DE4032;
 }
 .nav-social__item i{
   color: white;
@@ -213,7 +213,7 @@ p {
   left: 50%;
   transform: translateX(-50%);
   height: 3px;
-  background: #EEAD33;
+  background:  #0794A9;
 }
 .welcome{
   text-align: center;
@@ -254,7 +254,7 @@ p {
   left: 50%;
   transform: translateX(-50%);
   height: 3px;
-  background: #EEAD33;
+  background:  #0794A9;
 }
 .design__title:after {
   content: "";
@@ -264,7 +264,7 @@ p {
   left: 50%;
   transform: translateX(-50%);
   height: 3px;
-  background: #EEAD33;
+  background:  #0794A9;
 }
 
 .container-testimonials {
@@ -303,13 +303,13 @@ p {
   justify-content: center;
   align-items: center;
   font-size: 2em;
-  color: #EEAD33;
+  color:  #0794A9;
 }
 .box__icon:hover{
   color: black;
 }
 .box__title{
-  color: #EEAD33;
+  color:  #0794A9;
   margin: 0;
 }
 .box__txt {
@@ -336,7 +336,7 @@ p {
 }
 .form__submit{
   display: block;
-  background: #EEAD33;
+  background:  #0794A9;
   border: none;
   padding: 15px;
   width: 20%;
@@ -364,7 +364,7 @@ p {
 }
 .footer__author{
   text-align: right;
-  color: #EEAD33;
+  color:  #0794A9;
   display: block;
 }
 .footer__txt .fa-twitter{
@@ -372,13 +372,7 @@ p {
   margin-right: 5px;
 }
 .footer__link{
-  color: #EEAD33;
-}
-.footer__date{
-  font-size: .8em;
-  border-bottom: 1px solid #888;
-  padding-bottom: 10px;
-  color: white;
+  color:  #0794A9;
 }
 .social-icon{
   display: flex;
@@ -395,32 +389,23 @@ p {
   border-radius: 50%;
   
 }
-.social-icon .fa-facebook-f{
-  background: #3b5998;
+.social-icon .fa-github{
+  background: #183153;
 }
-.social-icon .fa-twitter{
-  background: #3bbef5;
+.social-icon .fa-linkedin{
+  background: #0A66C2;
 }
-.social-icon .fa-dribbble{
-  background: #f7659b;
+.social-icon .fa-envelope{
+  background: #DE4032;
 }
-.social-icon .fa-pinterest{
-  background: #e23139;
+.social-icon .fa-whatsapp{
+  background: #49C857;
 }
 
 .social__link{
   display: block;
   text-decoration: none;
-  color: #828282;
-}
-.contact-icon{
-  display: flex;
-  align-items: center;
-}
-.contact-icon .fas{
-  color: white;
-  display: block;
-  margin-right: 10px;
+  color: #0794A9;
 }
 .copy{
   background: #211E1E;
@@ -428,6 +413,13 @@ p {
   color: white;
   text-align: center;
   width: 100%;
+}
+.footer__img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: auto;
 }
 
 /* ancla */
@@ -438,7 +430,7 @@ p {
   right: -100px;
   width: 40px;
   transition: all 1s;
-  background: #EEAD33;
+  background:  #0794A9;
   border-radius: 50px;
 }
 @media screen and (min-width: 768px) {
