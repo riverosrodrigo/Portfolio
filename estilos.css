@@ -204,6 +204,7 @@ p {
   font-size: 2em;
   position: relative;
   text-align: center;
+  margin-top: 20px;
 }
 .section__title:before {
   content: "";
@@ -214,6 +215,7 @@ p {
   transform: translateX(-50%);
   height: 3px;
   background:  #0794A9;
+  
 }
 .welcome{
   text-align: center;
