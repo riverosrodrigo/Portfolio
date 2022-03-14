@@ -317,35 +317,59 @@ p {
 .box__txt {
   color: #999;
 }
-.newsletter{
-  margin: 50px 0;
+.section__title__contacto {
+  font-size: 2em;
+  position: relative;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
-.form{
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  max-width: 600px;
-}
-.form__mail{
-  display: block;
-  background: #ddd;
-  padding: 15px;
-  width: 75%;
-  border: none;
-  font-size: 1em;
-}
-.form__submit{
-  display: block;
+.section__title__contacto:before {
+  content: "";
+  width: 200px;
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 3px;
   background:  #0794A9;
-  border: none;
-  padding: 15px;
-  width: 20%;
-  color: white;
-  font-size: 1em;
+  
 }
 
+.templatemo_contact {
+  margin: 30px;
+  width: 100%;
+}
+
+.templatemo_contactform input, textarea {
+  width: 50%;
+  background: #0794A9;
+  border: 1px solid #0794A9;
+  border-radius: 5px;
+  padding: 7px 10px;
+  margin: 0px 0px 10px 0px;
+  background-color: #FAFAFA;
+  margin-left: 27%;
+}
+
+.templatemo_contactform textarea {
+  height: 100px;
+}
+
+
+.templatemo_contactform .btn-primary {
+  background: #0794A9;
+  border: none;
+  border-radius: 5px;
+  color: #FFF;
+  font-weight: 800;
+  margin-left: 27%;
+  margin-bottom: 10px;
+}
+
+.templatemo_contactform .btn-primary:hover {
+  background: #0A66C2;
+}
 .main-footer{
   background: #282828;
   color: #828282;

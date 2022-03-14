@@ -104,13 +104,23 @@
               </div>
             </div>
           </section>
-          <section id="contacto" class="newsletter">
-             <h2 class="section__title">CONTACTO</h2>
-             <form action="" method="post" class="form">
-               <input type="email" placeholder="Email" class="form__mail">
-               <input type="submit" class="form__submit" value="Enviar">
+          <!-- formulario -->
+          <div  id="contacto" class="row">
+            <h2 class="section__title__contacto">CONTACTO</h2>
+         </div>
+            <div class="col-md-8 templatemo_contactform">
+            <form action="enviar.php" method="post">
+                                 <input type="text" name="name" id="name" class="name" placeholder="NOMBRE">
+                                 <input type="text" name="mail" id="mail" class="email" placeholder="CORREO">
+                                 <input type="text" name="phone" id="subject" class="subject" placeholder="TELÉFONO">
+                                 <textarea name="message" class="message" placeholder="MENSAJE ... " id="message"></textarea>
+                                 <div class="clear"></div>
+                                     <div class="col-md-8"> 
+                                         <button type="submit" class="btn btn-primary">ENVIAR </button>
+             </div>
              </form>
-          </section>
+             </div>
+             <!-- fin formulario -->
         </main>
         <footer class="main-footer">
           <div class="container">
